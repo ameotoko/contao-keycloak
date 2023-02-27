@@ -4,5 +4,13 @@
     "require": {
         "php": "^7.4 || ^8.1",
         "contao/core-bundle": "^4.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ameotoko\\ContaoKeycloak\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "Ameotoko\\ContaoKeycloak\\ContaoManager\\Plugin"
     }
 }
