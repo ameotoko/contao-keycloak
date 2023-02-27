@@ -1,0 +1,8 @@
+{
+    "name": "ameotoko/contao-keycloak",
+    "type": "contao-bundle",
+    "require": {
+        "php": "^7.4 || ^8.1",
+        "contao/core-bundle": "^4.13"
+    }
+}
